@@ -1,0 +1,73 @@
+/* ---------------------------- Navbar Styles ------------------------- */
+/*dropdown menu color and alignment */
+.dropdown-menu {
+  background-color: #373D20;
+  text-align: center;
+}
+
+/*dropdown menu text color*/
+.dropdown-item {
+    color: white;
+}
+
+/*Website name controls*/
+.navbar .navbar-brand {
+  color: white;
+  padding-top: 10px;
+
+}
+/*what color the hover button is*/
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #717744;
+}
+
+
+/*Centers Links*/
+.navbar-nav {
+    float: none;
+    margin: 0 auto;  
+    position: relative;
+    left: -135px; /* the width of the .navbar-brand class in negative px */
+    padding-top: 10px;
+}
+
+/*Background color of navbar*/
+.navbar {
+    background-color: #373D20;
+}
+
+/*makes the dropdown menu a block shape*/
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+  /*Navbar link text color and position*/
+.navbar .navbar-nav .nav-link {
+  color: white;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+}
+
+
+/* controls highlighting active tab*/
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: white;
+  background-color: #717744;
+}
+
+/*Hover text color*/
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white !important;
+    background-color: #717744;
+}
+
+.dropdown-item {
+  background-color: #373D20;
+}
