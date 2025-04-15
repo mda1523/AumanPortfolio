@@ -15,8 +15,9 @@ body {
 }
 
 img {
-	float:  left;
-	width: 100%;
+	
+	width: 50%;
+	height: 50%;
 	padding: 10px;
 }
 
@@ -27,8 +28,10 @@ img {
 }
 
 div {
-	float: right;
+	display: flex;
+  justify-content: center;
 }
+
 
 
 

@@ -28,7 +28,6 @@
     float: none;
     margin: 0 auto;  
     position: relative;
-    left: -135px; /* the width of the .navbar-brand class in negative px */
     padding-top: 10px;
 }
 
